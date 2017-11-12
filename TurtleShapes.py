@@ -1,0 +1,23 @@
+import turtle
+
+turtle.register_shape("arrow",((100,100),(100,50),(125,0),(150,50),(150,100),(100,100)))
+turtle.shape("arrow")
+
+turtle.speed(3)
+turtle.pencolor("green")
+turtle.pensize(1)
+turtle.forward(100)
+turtle.right(144)
+turtle.pencolor("blue")
+turtle.forward(100)
+turtle.right(144)
+turtle.pencolor("red")
+turtle.forward(100)
+turtle.right(144)
+turtle.pencolor("orange")
+turtle.forward(100)
+turtle.right(144)
+turtle.pencolor("yellow")
+turtle.forward(100)
+turtle.right(144)
+turtle.mainloop()

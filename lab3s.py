@@ -1,0 +1,17 @@
+import turtle
+turtle.speed(10000)
+while True:
+	turtle.forward(120)
+	turtle.right(45)
+	turtle.forward(40)
+	turtle.right(90)
+	turtle.forward(20)
+	turtle.right(180)
+	turtle.forward(20)
+	turtle.left(90)
+	turtle.forward(40)
+	turtle.left(45)
+	turtle.forward(120)
+	turtle.left(180)
+	turtle.left(1)
+turtle.mainloop()
