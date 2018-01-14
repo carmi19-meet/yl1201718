@@ -16,6 +16,6 @@ class hex(Turtle):
 		self.shape("myFavouriteShape")
 		self.showturtle()
 
-a = hex(10,8)
+a = hex(10,7)
 #a.goto(-100,100)
 mainloop()
